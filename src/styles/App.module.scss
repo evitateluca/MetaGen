@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: #11121C;
+    color: white;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    @media (min-width: 800px) {
+        justify-content: space-around;
+    }
+}

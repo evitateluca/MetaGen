@@ -1,0 +1,32 @@
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: #f02939;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 13px;
+}
